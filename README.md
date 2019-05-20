@@ -20,14 +20,14 @@ node index.js
 ```
 4. Setelah semua _dependencies_ terpasang, API akan berjalan pada :
 ```
-http://localhost:8080
+http://localhost:8000
 ```
 5. Lakukan _request_ untuk setiap cipher yang diinginkan
 ```
-http://localhost:8080/caesarencrypt
-http://localhost:8080/caesardecrypt
-http://localhost:8080/vigenereencrypt
-http://localhost:8080/vigeneredecrypt
+http://localhost:8000/caesarencrypt
+http://localhost:8000/caesardecrypt
+http://localhost:8000/vigenereencrypt
+http://localhost:8000/vigeneredecrypt
 ```
 
 ALTERNATIF
