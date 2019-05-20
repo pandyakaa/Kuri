@@ -30,7 +30,7 @@ http://localhost:8000/vigenereencrypt
 http://localhost:8000/vigeneredecrypt
 ```
 
-ALTERNATIF
+**ALTERNATIF**
 
 Lakukan _request_ pada :
 ```
