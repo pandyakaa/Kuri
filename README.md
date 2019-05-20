@@ -34,7 +34,10 @@ ALTERNATIF
 
 Lakukan _request_ pada :
 ```
-TBD
+http://kuri003.herokuapp.com/caesarencrypt
+http://kuri003.herokuapp.com/caesardecrypt
+http://kuri003.herokuapp.com/vigenereencrypt
+http://kuri003.herokuapp.com/vigeneredecrypt
 ```
 
 ## Cipher yang Tersedia
