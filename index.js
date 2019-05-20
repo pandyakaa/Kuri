@@ -5,6 +5,8 @@ var app = express()
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+var port = process.env.PORT || 8080;
+
 function isUpperCase(ch) {
     return ch === ch.toUpperCase();
 }
@@ -81,7 +83,7 @@ app.post("/vigeneredecrypt",(req,res) => {
     res.json(vigenereDecrypt(req.body.ciphertext,req.body.key));
 });
 
-app.listen(8000, () => {
- console.log("Server running on port 8000");
+app.listen(port, () => {
+ console.log("Server running on port" + port);
 });
 
