@@ -34,10 +34,11 @@ http://localhost:8000/vigeneredecrypt
 
 Lakukan _request_ pada :
 ```
-http://kuri003.herokuapp.com/caesarencrypt
-http://kuri003.herokuapp.com/caesardecrypt
-http://kuri003.herokuapp.com/vigenereencrypt
-http://kuri003.herokuapp.com/vigeneredecrypt
+https://api.pandyaka.com/cipher/caesarencrypt
+https://api.pandyaka.com/cipher/caesardecrypt
+
+https://api.pandyaka.com/cipher/vigenereencrypt
+https://api.pandyaka.com/cipher/vigeneredecrypt
 ```
 
 ## Cipher yang Tersedia
